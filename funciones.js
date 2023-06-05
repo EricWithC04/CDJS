@@ -3,18 +3,18 @@ function esMayorEdad (edad) {
     return edad >= 18;
 }
 
-console.log(esMayorEdad(15));
-console.log(esMayorEdad(18));
-console.log(esMayorEdad(45));
+// console.log(esMayorEdad(15));
+// console.log(esMayorEdad(18));
+// console.log(esMayorEdad(45));
 
 function calcularAreaRectangulo (base, altura) {
     let area = base * altura;
     return area;
 }
 
-console.log(calcularAreaRectangulo(18, 20));
-console.log(calcularAreaRectangulo(25, 40));
-console.log(calcularAreaRectangulo(10, 15));
+// console.log(calcularAreaRectangulo(18, 20));
+// console.log(calcularAreaRectangulo(25, 40));
+// console.log(calcularAreaRectangulo(10, 15));
 
 function esPalindromo (cadena) {
     let arrayCaracter = cadena.split(""); //convertir la cadena en un array de caracteres ["C", "A", "D", "E", "N", "A"]
@@ -26,9 +26,9 @@ function esPalindromo (cadena) {
     return cadena === unirArray; //se evalua si el inverso y el original son iguales y devuelve el resultado
 }
 
-console.log(esPalindromo("radar"));
-console.log(esPalindromo("manzana"));
-console.log(esPalindromo("anitalavalatina"));
+// console.log(esPalindromo("radar"));
+// console.log(esPalindromo("manzana"));
+// console.log(esPalindromo("anitalavalatina"));
 
 function generarNumeroAleatorio () {
     let numAleatorio = Math.random(); //Math.random() genera un numero con decimales aleatorios
@@ -38,6 +38,6 @@ function generarNumeroAleatorio () {
     return numeroEnteroAleatorio;
 }
 
-console.log(generarNumeroAleatorio());
-console.log(generarNumeroAleatorio());
-console.log(generarNumeroAleatorio());
+// console.log(generarNumeroAleatorio());
+// console.log(generarNumeroAleatorio());
+// console.log(generarNumeroAleatorio());

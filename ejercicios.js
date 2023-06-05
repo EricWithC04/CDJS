@@ -66,4 +66,4 @@ function totalCompra() {
     alert(`el total de la compra es $${total}`)
 }
 
-totalCompra()
+// totalCompra()

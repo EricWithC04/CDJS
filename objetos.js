@@ -8,7 +8,7 @@ function calcularTotal (product) {
     return product.precio * product.cantidad;
 }
 
-console.log(calcularTotal(producto));
+// console.log(calcularTotal(producto));
 
 let persona = {
     nombre: "Alvaro",
@@ -20,10 +20,10 @@ function presentarPersona (person) {
     console.log(`Hola, soy ${person.nombre}, tengo ${person.edad} años y soy ${person.profesion}`);
 }
 
-presentarPersona(persona);
+// presentarPersona(persona);
 
 function esMayorDeEdad (person) {
     return person.edad >= 18
 }
 
-console.log(esMayorDeEdad(persona));
+// console.log(esMayorDeEdad(persona));
